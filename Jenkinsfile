@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Build your Docker image
-                    bat 'docker build -t my-kube1 .'
+                    bat 'C:\\Windows\\System32\\cmd.exe /c docker build -t my-kube1 .'
                 }
             }
         }
